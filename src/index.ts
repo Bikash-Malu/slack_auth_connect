@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Allowed origins for CORS
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://papaya-bunny-0bddc8.netlify.app'];
 
 // CORS configuration
 app.use(
